@@ -86,7 +86,7 @@ class VesselOperator extends Component {
         <Divider/>
         <FormControl variant="filled" className="operator-dropdown">
         <Autocomplete
-          {...flatProps}
+          // {...flatProps}
           id="auto-select"
           autoSelect
           renderInput={(params) => <TextField {...params} label="autoSelect" margin="normal" />}
