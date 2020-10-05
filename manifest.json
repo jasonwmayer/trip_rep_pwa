@@ -1,0 +1,43 @@
+{
+  "name": "NOAA Fish Online - NOAA Fisheries - VTR submission",
+  "short_name": "NOAA Fish Online",
+  "start_url": "./",
+  "display": "minimal-ui",
+  "background_color":"#0293d0",
+  "description": "VTR submission for NOAA Fisheries / GARFO",
+  "orientation" : "portrait",
+  "icons": [
+    {
+      "src": "noaa/noaa-pwa/src/assets/favicon.png",
+      "type": "image/png", 
+      "sizes": "48x48"
+    },
+    {
+      "src": "noaa/noaa-pwa/src/assets/favicon.png",
+      "type": "image/png", 
+      "sizes": "96x96"
+    },
+    {
+      "src": "noaa/noaa-pwa/src/assets/favicon.png",
+      "type": "image/png", 
+      "sizes": "144x144"
+    },
+    {
+      "src": "noaa/noaa-pwa/src/assets/image001.png",
+      "type": "image/png", 
+      "sizes": "206x50"
+    },
+    {
+      "src": "noaa/noaa-pwa/src/assets/logo192.png",
+      "type": "image/png", 
+      "sizes": "192x192"
+    },
+    {
+      "src": "noaa/noaa-pwa/src/assets/logo512.png",
+      "type": "image/png", 
+      "sizes": "512x512"
+    }
+  ]
+}
+
+
