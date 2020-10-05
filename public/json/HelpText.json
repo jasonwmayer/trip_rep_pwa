@@ -1,0 +1,76 @@
+[
+  {"VALUE":"Enter the six digit number printed on the fishing permit issued to your vessel by NMFS, Greater Atlantic Regional Office, Gloucester, Massachusetts."
+  ,"KEY": "vessel"
+  },
+  {"VALUE":"Print your NMFS Operator's Permit Number. This is the 8 digit number on the Operator's Permit issued by the NMFS/GARFO Permit Office."
+  ,"KEY": "operator"
+  },
+  {"VALUE":"Enter the month, day, year and time you sailed."
+  ,"KEY": "sail_date"
+  },
+  {"VALUE":"Check the box for the appropriate trip type."
+  ,"KEY": "trip_type"
+  },
+  {"VALUE":"Enter the total number of crew members including the captain. If you have an Observer onboard do not include them in the crew count. Party/Charter vessels should include all crew members or employees on board for the trip."
+  ,"KEY":  "num_crew"
+  },
+  {"VALUE":"enter the total number of anglers, excluding the vessel's crew."
+  ,"KEY": "nanglers"
+  },
+  {"VALUE":"Enter the three digit area fished from the charts supplied below. Area fished may be an offshore area (indicated by bold font in the attached charts)\r\n    or an inshore area (indicated by small font in charts). For each area (inshore or offshore) where the start of haul back occurred during a trip, a separate\r\n    VTR page for each area must be completed using the three digit code from the appropriate chart found at the end of this document.\r\n    For instance, if nine of your tows started and ended in one area you would report this area on your VTR log.\r\n    If on the tenth tow you crossed into a new area and starting hauling back in that area, you would fill out a new VTR log and report the new chart area. <ul>\r\n    <li>If you\u2019re fishing north of 35 degrees latitude and east of the demarcated area boundaries, enter 899<\/li>\r\n    <li>f you\u2019re south of 35 degrees latitude and east of the demarcated area boundaries, enter 799<\/li>\r\n    <li>If fishing in the areas found on the inshore charts for MA, RI, CT, and NY state waters (Charts\r\n    5, 6, and 7), use the inshore code (small font) when appropriate. For example, if you\u2019re fishing\r\n    just off of the tip of Cape Ann (Chart 5) you would report area 116. Likewise, if you are fishing\r\n    just off of New Haven in Long Island Sound (Chart 7) you would report area 143.\r\n    Catch should be reported based upon the chart area where the start of your haul back occurred.<\/li>\r\n    <li>For mobile gear (trawls and dredges), this is when the hauling equipment is put into gear with the\r\n     intention of hauling back and retrieval of net\/dredge begins.<\/li>\r\n    <li>For fixed gear (gillnets, longline, pots, traps, and weirs), this is when the hauling equipment\r\n    is put into gear or retrieval of one end of the set begins.<\/li>\r\n    <li>For purse seine gear, and other seines, this is when the skiff hits the water upon setting the gear, or the first piece of gear hits the water, whichever occurs first.<\/li>\r\n    <li>For all other gears (handline, rod and reel, and the gears listed in the Gear Code Table above as 'other gears'),\r\n    you report the area where the gear is completely retrieved and aboard the vessel. <\/ li><ul \/> "
+  ,"KEY":  "chart_area"
+  },
+  {"VALUE":"When multiple haul-backs occur in the same chart area, enter a single geographic position using either latitude and longitude (degrees and minutes) of the haul-back position where the majority of your fishing effort occurred."
+  ,"KEY": "lat_lon"
+  },
+  {"VALUE":" Enter the total number of tows, sets, or strings you hauled as appropriate for your gear."
+  ,"KEY": "num_hauls"
+  },
+  {"VALUE":"Depending upon the gear used, you will enter either the average tow time per haul,the total time that the gear soaked or the estimated time you spent fishing (not including travel time).\r\n    Enter the amount of time fishing (hours and minutes). <ul><li>Mobile Gear (trawl, dredges, etc.): Enter the average amount of time per tow which is defined as from the time the gear is completely hooked up to when the gear is completely hauled back.<\/li>\r\n    <li>Fixed Gear (gill nets, long lines, pots, etc.): Enter the average time that the gear soaked which is defined as\r\n     starting when the first piece of gear is deployed and ending when the last piece of gear is hauled back.\r\n    <\/li><li>Seines: Enter the average soak time per haul\r\n    <\/li><li>Rod & Reel \/ Hand Line: Enter the total amount of time the lines were actually fishing.\r\n    <\/li><li>Harpoon: Enter the total amount of time spent searching for targeted species.\r\n    <\/li><li>Diving: Enter dive time<\/li><\/ul>"
+  ,"KEY": "soak_time"
+  },
+  {"VALUE":"Enter the average depth fished in fathoms."
+  ,"KEY": "depth"
+  },
+  {"VALUE":"Enter the three letter code of the gear being fished. If more than one gear type was used during this trip, a separate report page must be completed for each gear used. If you are fishing with a gear type not provided, please contact the Vessel Trip Reporting office at (978) 281-9246 for guidance."
+  ,"KEY": "gear_code"
+  },
+  {"VALUE":"Enter the quantity of gear being fished per haul. Use the definitions in the Fishing Effort Information by Gear Type table. If more than one of this gear type was used during the trip, enter the average quantity of gear used per haul."
+  ,"KEY": "gear_qty"
+  },
+  {"VALUE":"Enter size of the gear being fished using the definitions in the Fishing Effort Information by Gear Type table located below. "
+  ,"KEY": "gear_size"
+  },
+  {"VALUE": "Enter mesh/ring size of the gear being fished. Use the definitions in the Fishing Effort Information by Gear Type Table . If more than one mesh/ring size was used in a haul (for example, multiple mesh sizes in a string of gillnets), enter the average mesh size per haul. If you changed mesh/ring size during this trip (for example, changing from a large mesh trawl to a small mesh trawl), complete a separate effort for each mesh/ring size used."
+,"KEY": "mesh_size"
+},
+  {"VALUE": "Select the code of each species caught. If other species were caught that are not provided, please call the Vessel Trip Reporting office at (978) 281-9246 for guidance."
+  ,"KEY": "species_code"
+  }
+,
+  {"VALUE":"<ul><li>Commercial Trips: Enter the hail weight (in pounds) of each species in the KEPT column.\r\n     Groundfish catch retained for home consumption should have its fillet weight entered.\r\n    <\/li><li>Recreational Trips: Enter the count for each species in the KEPT column.\r\n    <\/li><li>Party & Charter Trips: Enter the count for each species in the KEPT column.<\/li><\/ul>"
+  ,"KEY": "kept"
+  }
+,
+  {"VALUE":"<ul><li>Commercial Trips: Enter the hail weight (in pounds) of each species in the DISCARDED column.<\/li><li>Recreational Trips: Enter the count for each species in the DISCARDED column.\r\n    <\/li><li>Party & Charter Trips: Enter the count for each species in the DISCARDED column.<\/li><\/ul>"
+  ,"KEY": "discarded"
+  },
+  {"VALUE":"Check the box for the appropriate trip type."
+,"KEY": "trip_type"
+},
+  {"VALUE":"Choose the dealer for this sale from the dropdown."
+  ,"KEY": "dealer"
+  } ,
+  {"VALUE":"Enter the number of pounds sold."
+,"KEY": "pounds"
+},
+  {"VALUE":"Enter the date sold for this sale."
+  ,"KEY": "date_sold"
+  },
+  {"VALUE":"Enter the number of fish sold."
+  ,"KEY": "fish"
+  },
+  {"VALUE":"Select the port and state for this sale."
+  ,"KEY": "port"
+  }
+]

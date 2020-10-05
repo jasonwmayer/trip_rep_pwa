@@ -1,0 +1,13 @@
+[
+	{
+		"form_name": "DAS OPEN TRIP HAIL",
+		"vessel_permit_num": 136409,
+		"trip_id": 12345678909876,
+		"portcd": 240207,
+		"speciescd": "MONKFISH",
+		"sthrn_mgmt_area_flg": true,
+		"gear_type": "TRAWL",
+		"brdstck_area": "GOMDA",
+		"ne_multiflg": false
+	}
+]

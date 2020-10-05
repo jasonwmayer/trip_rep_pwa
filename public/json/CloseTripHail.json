@@ -1,0 +1,12 @@
+[
+	{
+		"form_name": "DAS CLOSE TRIP HAIL",
+		"vessel_permit_num": 123456,
+		"trip_id": 12345678909876,
+		"portcd": 123,
+		"speciescd": "MONKFISH",
+		"catchcomp": "WHOLE",
+		"mnkfsh_ovrgflg": false,
+		"lbs": 20
+	}
+]
