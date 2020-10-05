@@ -1,0 +1,58 @@
+.new-trip-form-container {
+border: 1px solid #999;
+margin-bottom: 1rem;
+font-size: 1rem;
+width:90%;
+height: 42px;
+padding:15px;
+  margin-left: 20px;
+}
+.trip-type-dropdown-label {
+  padding:10px 40px; 
+}
+.number-of-crew-ang-container {
+  max-width: 300px;
+  padding:10px 40px;
+}
+.trip-type-container {
+  display: flex;
+  flex-direction: column;
+  min-width: 300px;
+  padding:10px 40px;
+} 
+.button-container-next {
+  justify-content: space-evenly;
+
+}
+
+.trip-form-container {
+  display: flex;
+  flex-direction: column;
+}
+.number-of-input {
+  min-width:250px;
+}
+
+.trip-type-dropdown-container {
+  padding-left:10px;
+  min-width:400px;
+}
+
+.trip-type-drop-down {
+  color: #28282A;
+}
+
+.submit-trip-type-container {
+  padding:10px 40px;
+
+}
+
+.new-vtr-button {
+  position:relative;
+  color: #fff;
+  background-color: #0a4595;
+  min-width: 360px;
+  padding:10px;
+  transition: .5s;
+  margin: 40px;
+}

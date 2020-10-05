@@ -1,0 +1,26 @@
+/* styling for TripForm2 Component */
+.trip-form-container {
+    margin-left: 20px;  
+}
+
+.trip-form-label {
+    margin-left: 10px;
+}
+
+.bottom-nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.select-title {
+    text-align: center;
+    font-weight: 700;
+}
+.MuiInputBase-input {
+    font: inherit;
+    color: currentColor;
+    width: 6;
+}
+.MuiInputBase-input .MuiOutlinedInput-input {
+    min-width: 600px;;
+}

@@ -1,0 +1,29 @@
+import {Divider, TextField} from "@material-ui/core";
+import React , {Component} from "react";
+import {connect} from "react-redux";
+import mapStateToProps from "../../services/mapStateToProps";
+
+class NrCrew extends Component {
+    render() {
+            return (
+                <>
+                <Divider/>
+                <div className="number-of-crew-ang-container">
+                    <TextField
+                        label='Number of Crew:'
+                        className="number-of-input"
+                        value={this.props.number_of_crew ? Number(this.props.number_of_crew) :""}
+                        name="number_of_crew"
+                        type="number"
+                        min="0" max="999"
+                        onChange={e => this.props.handleInputChange(e)}
+                    />
+                </div>
+                    </>
+            )
+    }
+}
+
+export default connect(
+mapStateToProps
+)(NrCrew);

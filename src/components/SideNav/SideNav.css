@@ -1,0 +1,42 @@
+html {
+    height: 100%
+}
+body {
+    margin: 0;
+    padding: 0;
+    height: 100% ;
+}
+.side-nav{
+    z-index: 200;
+}
+/*mobile  320px width,
+ tablet 720px width,
+ desktop starting at 1024px width.*/
+.side-drawer {
+    height: 100%;
+    background: white;
+    box-shadow: 1px 0px 7px rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 30%;
+    max-width: 400px;
+    z-index: 200;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-out;
+}
+@media (min-width: 320px) {
+    .side-drawer {
+        max-width: 350px;
+    }
+}
+@media (min-width: 720px) {
+    .side-drawer {
+        max-width: 380px;
+    }
+}
+@media (min-width: 1024px) {
+    .side-drawer {
+        max-width: 400px;
+    }
+}

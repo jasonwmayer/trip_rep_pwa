@@ -1,0 +1,60 @@
+/* styling for StartNewTrip Component */
+.start-new-trip-container{
+    color:#0a4595;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  
+}
+
+.trip-type-dropdown-container {
+  padding-left:40px;
+}
+
+
+.start-new-trip-button-container {
+    align-content: center;
+    display: flex;
+    padding:20px;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    
+
+}
+.new-trip-button-and-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.new-trip-button  {
+    text-align: center;
+    margin-bottom:10px;
+    position:relative;
+    color: #fff;
+    background-color: #0a4595;
+    min-width: 360px;
+    padding:10px;
+    transition: .5s;
+  }
+
+  .new-trip-button:hover {
+    background-color: #2196f3;
+    transition: .5s;
+    color: #0a4595;
+  }
+  .MuiButton-containedPrimary {
+     margin-bottom:10px;
+  }
+
+
+.new-vtr-button  {
+    position:relative;
+    color: #fff;
+    background-color: #2196f3;
+    width: 360px;
+    padding-top:10px;
+    padding-bottom:10px;
+  
+  }

@@ -1,0 +1,11 @@
+/* styling for VesselPermitsList Component */
+.vessel-card-container {
+    display: flex;
+    flex-direction: column; 
+}
+
+.vessel-card-label-data {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around;
+}

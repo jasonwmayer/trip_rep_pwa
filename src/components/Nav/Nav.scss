@@ -1,0 +1,64 @@
+.responsive-drawer {
+   text-decoration: none;
+    width: 100%;
+    display: 'inline';
+    color: white;
+    height: 100%;
+    .img {
+        height: 8px;
+        width: 8px;
+      .favi-con {
+        max-width:10px;
+      }
+    }
+}
+
+
+.icon-for-nav-button {
+  display: inline-flex;
+  flex-direction: row;
+}
+.login-title{
+  text-align: center;
+  flex-grow: 1;
+}
+
+.drawer-button-container {
+  flex-direction: row;
+  display: inline-flex;
+}
+.button-container {
+  flex-direction: row;
+}
+.MuiButtonBase-root .MuiListItem-root .MuiListItem-gutters .MuiListItem-button {
+  flex-direction: row;
+}
+a:link {
+  text-decoration: none;
+  color:  #333333;
+  &:hover {
+		color: #0a4595;
+	}
+}
+.fav-icon {
+    margin: 15px;
+    box-shadow: 0 0 3px rgba(0, 140, 186, 0.5);
+    border-radius: 50%;
+    width: 20px;
+    margin: 5px;
+  }
+  .add-reports-button {
+    text-decoration: none;
+    margin-top: 10px;
+  }
+  .drawer-header {
+    display: flex;
+    min-width: 100%;
+    align-items: center;
+     max-width: 100%;
+    justify-content: flex-start;
+  }
+  .switch-box {
+    align-items: center;
+
+  }
